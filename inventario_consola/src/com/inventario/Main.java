@@ -92,6 +92,7 @@ public class Main {
 			}
 			
 			case 4: {
+				//ACTUALIZAR STOCK DE UN PRODUCTO
 				System.out.print("Ingrese el código del Producto para ser actualizado: ");
 				
 				String codigo = sc.nextLine();
@@ -117,6 +118,7 @@ public class Main {
 			}
 			
 			case 5: {
+				//ELIMINAR PRODUCTO
 				System.out.print("Ingrese el código del Producto a eliminar: ");
                 String codigoEliminar = sc.nextLine();
                 
@@ -132,6 +134,7 @@ public class Main {
 				
 			}
 			case 6: {
+				//PRODUCTOS BAJO EN STOCK
 				System.out.println("\n===== PRODUCTO CON BAJO STOCK =====");
 				gestor.productoBajoStock();
 				break;
